@@ -1,9 +1,10 @@
 ***************************************
-# GestÃ£o Pessoas | GEP
-## InformaÃ§Ãµes Gerais:
-* Este repositÃ³rio contÃ©m os projetos de testes automatizados para o produto Gestão de Pessoas - HCM.
+# Gestão de Pessoas | HCM
+## Informações Gerais:
+* Este repositório contém os projetos de testes automatizados para o produto Gestão de Pessoas - HCM.
 
-## InformaÃ§Ãµes Adicionais:
-* Para execuÃ§Ã£o dos testes automatizados Ã© necessÃ¡rio tambÃ©m a utilização das bibliotecas do FAST
+## Informações Adicionais:
+* Para execução dos testes automatizados é necessário também a utilização das bibliotecas do FAST.
+* Para maiores informações, entre em contato com devops@senior.com.br
 
 ## Tutoriais:
