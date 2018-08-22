@@ -1,14 +1,10 @@
-![alt text](http://www.senior.com.br/senior-flat-website/wp-content/themes/senior/images/brand.png)
 ***************************************
-# GestÃ£o Pessoas | GEP
-## InformaÃ§Ãµes Gerais:
-* Este repositÃ³rio contÃ©m os projetos de testes automatizados para o produto, base, regras, etc.
+# Gestão de Pessoas | HCM
+## Informações Gerais:
+* Este repositório contém os projetos de testes automatizados para o produto Gestão de Pessoas - HCM.
 
-## InformaÃ§Ãµes Adicionais:
-* Para execuÃ§Ã£o dos testes automatizados Ã© necessÃ¡rio tambÃ©m realizar o clone dos repositÃ³rios:  
-git@git.senior.com.br:tecnologia/external-libs.git  
-git@git.senior.com.br:tecnologia/fast-lib.git
+## Informações Adicionais:
+* Para execução dos testes automatizados é necessário também a utilização das bibliotecas do FAST.
+* Para maiores informações, entre em contato com devops@senior.com.br
 
 ## Tutoriais:
-* Como clonar os repositÃ³rios e importar os projetos no Eclipse:  
-Clique [aqui](http://wiki.senior.com.br/Paginas/Montagem%20de%20Ambiente%20Testes%20Automatizados%20ERP%20-%20GIT.aspx).
