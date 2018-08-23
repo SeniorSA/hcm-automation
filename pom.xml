@@ -19,13 +19,13 @@
 			</plugin>
 		</plugins>
 	</build>
-	<!-- <dependencies>
+	<dependencies>
 		<dependency>
 			<groupId>br.com.senior.fast</groupId>
 			<artifactId>framework-testes-api</artifactId>
-			<version>6.2.33.436</version>
+			<version>6.2.33.444</version>
 		</dependency>
-	</dependencies> -->
+	</dependencies>
 	<repositories>
 	</repositories>
 	<modules>
