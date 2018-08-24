@@ -75,7 +75,7 @@ public class TCGEP0001_ExemploCasoDeTeste {
      */
     @Test
     public void testScenario0001_ExemploTeste() {
-        Facilitadores.selecionarEmpresa(0002);
+        Facilitadores.selecionarEmpresa(2);
 
         SistemaSenior.abrirTela("NFR034FUN");
         SistemaSenior.preencherCampo("DENumCad1", "89890");
