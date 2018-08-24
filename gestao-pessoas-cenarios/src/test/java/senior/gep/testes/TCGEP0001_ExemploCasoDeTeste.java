@@ -75,11 +75,10 @@ public class TCGEP0001_ExemploCasoDeTeste {
      */
     @Test
     public void testScenario0001_ExemploTeste() {
-    	//Alteração cenário
         Facilitadores.selecionarEmpresa(0002);
 
         SistemaSenior.abrirTela("NFR034FUN");
-        SistemaSenior.preencherCampo("DENumCad1", "89891");
+        SistemaSenior.preencherCampo("DENumCad1", "89890");
         SistemaSenior.teclar(Tecla.TAB);
         SistemaSenior.preencherCampo("DENomFun1", "898777");
         SistemaSenior.teclar(Tecla.TAB);
