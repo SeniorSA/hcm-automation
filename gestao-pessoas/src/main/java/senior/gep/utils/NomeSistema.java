@@ -3,7 +3,7 @@ package senior.gep.utils;
 /**
  *         Classe destinada ao armazenamento de usuários utilizados pelos testes.
  */
-public class SystemName {
+public class NomeSistema {
 
     /**
      * Nome do sistema
