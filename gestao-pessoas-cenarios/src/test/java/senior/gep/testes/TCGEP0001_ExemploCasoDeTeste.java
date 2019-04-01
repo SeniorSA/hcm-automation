@@ -16,8 +16,8 @@ import senior.gep.AssertivaGEP;
 import senior.gep.ReexecutarTeste.Reexecutar;
 import senior.gep.TCBaseGEPNucleo;
 import senior.gep.utils.Facilitadores;
-import senior.gep.utils.SystemName;
-import senior.gep.utils.SystemUsers;
+import senior.gep.utils.NomeSistema;
+import senior.gep.utils.NomeUsuarios;
 
 /**
  * Cenário que trata o assunto XYZ.
@@ -36,12 +36,12 @@ public class TCGEP0001_ExemploCasoDeTeste {
     @BeforeClass
     public static void setUpClass() {
         try {
-            SistemaSenior.iniciarSistema(SystemName.HCM, SystemUsers.HCM);
+            SistemaSenior.iniciarSistema(NomeSistema.HCM, NomeUsuarios.HCM);
             SistemaSenior.conferirCaixaMensagem("*", "O Sistema está sendo executado", "OK");
         } catch (Exception e) {
             if (e.getMessage().contains("Timeout")) {
                 SistemaSenior.finalizarSistema();
-                SistemaSenior.iniciarSistema(SystemName.HCM, SystemUsers.HCM);
+                SistemaSenior.iniciarSistema(NomeSistema.HCM, NomeUsuarios.HCM);
             }
         }
     }
@@ -67,7 +67,7 @@ public class TCGEP0001_ExemploCasoDeTeste {
      */
     @After
     public void tearDown() {
-        TCBaseGEPNucleo.reverterTransacao(SystemName.HCM, SystemUsers.HCM);
+        TCBaseGEPNucleo.reverterTransacao(NomeSistema.HCM, NomeUsuarios.HCM);
     }
 
     /**
